@@ -114,14 +114,12 @@
           <tr>
             <th scope="col">#</th>
             <th scope="col">Nombre</th>
-            <th scope="col">Dueño</th>
-            <th scope="col">Tipo</th>
+            <th scope="col">Apellido</th>
+
             <th scope="col"></th>
           </tr>
         </thead>
-        <tbody id="listas_mascotas">
-          <!-- Las mascotas se renderizan aquí -->
-        </tbody>
+        <tbody id="listas_veterinarios"></tbody>
       </table>
     </div>
 
@@ -135,7 +133,7 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Nueva Mascota</h5>
+              <h5 class="modal-title">Nuevo Veteniri@s</h5>
               <button
                 type="button"
                 class="btn-close"
@@ -145,24 +143,12 @@
             </div>
             <div class="modal-body">
               <div class="mb-3">
-                <label for="nombre" class="form-label"
-                  >Nombre de la Mascota</label
-                >
+                <label for="nombre" class="form-label">Nombre:</label>
                 <input type="text" id="nombre" class="form-control" />
               </div>
               <div class="mb-3">
-                <label for="dueno" class="form-label">Nombre del Dueño</label>
-                <input type="text" id="dueno" class="form-control" />
-              </div>
-              <div class="mb-3">
-                <label for="tipo" class="form-label">Tipo</label>
-                <select class="form-select" id="tipo">
-                  <option>Seleccionar</option>
-                  <option value="Gato">Gato</option>
-                  <option value="Perro">Perro</option>
-                  <option value="Loro">Loro</option>
-                  <option value="Caballo">Caballo</option>
-                </select>
+                <label for="apellido" class="form-label">Apellido: </label>
+                <input type="text" id="apellido" class="form-control" />
               </div>
             </div>
             <div class="modal-footer">
